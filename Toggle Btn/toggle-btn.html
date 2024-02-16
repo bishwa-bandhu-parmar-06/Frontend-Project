@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Botton</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: arial;
+        }
+        #menu {
+            width: 100%;
+            height: 40px;
+            background-color: pink;
+            line-height: 40px;
+            position: fixed;
+            top: 0;
+        }
+        #menu-toggle {
+            margin-left: 10px;
+        }
+        #menu-list {
+            background-color: rgba(4, 53, 151, 0.95);
+            width: 200px;
+            height: 100vh;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #menu-list li {
+            padding-left: 20px;
+            border-bottom: 1px solid #dedede;
+        }
+        #menu-list a {
+            color: white;
+            text-decoration: none;
+        }
+        #menu-list.active {
+            animation: slide-in 0.3s ease-in-out ;
+        }
+        #menu-list:not(.active) {
+            animation: slide-out 0.3s ease-in-out forwards;
+        }
+        @keyframes slide-in {
+            0%{
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        @keyframes slide-out {
+            0%{
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <button id="menu-toggle">Menu</button>
+        <ul id="menu-list">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('#menu-toggle');
+        const menuList = document.querySelector('#menu-list');
+
+        menuToggle = addEventListener('click',function(){
+            menuList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+
+    <head>
+<title>BIKASH CALCULATOR</title>
+	<style>
+	#singh{width:300px; height:280px; background-color: black;}
+	input{width: 20%;height:40px; font-size: 20px;margin:6px;}
+	#cse{width:96%; height: 50px; background-color: silver;}
+	</style>
+    </head>
+	<body>
+	       <div id="singh">
+		   
+		              <form name="bikash">
+		                 <input type="text" name="number" placeholder="0000" id="cse">
+						 <br>
+						 <input type="button" value="1" onclick="bikash.number.value+=1">
+		                  <input type="button" value="2" onclick="bikash.number.value+=2">
+						  <input type="button" value="3" onclick="bikash.number.value+=3">
+						  <input type="button" value="+" onclick="bikash.number.value+='+'">
+						  <br>
+						  <input type="button" value="4" onclick="bikash.number.value+=4">
+		                  <input type="button" value="5" onclick="bikash.number.value+=5">
+						  <input type="button" value="6" onclick="bikash.number.value+=6">
+						  <input type="button" value="-" onclick="bikash.number.value+='-'">
+						  <br>
+						  <input type="button" value="7" onclick="bikash.number.value+=7">
+		                  <input type="button" value="8" onclick="bikash.number.value+=8">
+						  <input type="button" value="9" onclick="bikash.number.value+=9">
+						  <input type="button" value="/" onclick="bikash.number.value+='/'">
+						  <br>
+						  <input type="button" value="c" onclick="bikash.number.value=''">
+		                  <input type="button" value="0" onclick="bikash.number.value+=0">
+						  <input type="button" value="=" onclick="bikash.number.value=eval(bikash.number.value)">
+						  <input type="button" value="x" onclick="bikash.number.value+='*'">
+						  <br>		   
+		               </form>
+		   </div>
+	</body>
+</html>
