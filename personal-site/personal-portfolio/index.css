@@ -1,0 +1,278 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    color: black;
+}
+
+.header-section {
+    height: 60px;
+    width: 100%;
+    background-color: #97efe9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name-logo-link {
+    text-decoration: none;
+    color: black;
+}
+.name-logo-link:hover {
+    border-bottom: 3px solid black;
+}
+.data {
+    height: 60px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width: 900px){
+    .data{
+        height: 30px;
+        width: 400px;
+        background-color: white;
+    }
+}
+.data a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+@media (max-width: 900px){
+    .data a{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+}
+.data a i {
+    font-size: 18px;
+    color: black;
+    margin-right: 5px;
+}
+@media (max-width: 900px){
+    .data a i{
+        font-size: 10px;
+    }  
+}
+.hom {
+    height: 56px;
+    line-height: 46px;
+    padding: 3px;
+    border: 2px solid black;
+}
+@media (max-width: 900px){
+    .hom {
+        height: 30px;
+    }
+}
+.hom:hover {
+    background-color: white;
+}
+.cv {
+    height: 56px;
+    line-height: 46px;
+    padding: 3px;
+    border: 2px solid black;
+}
+@media (max-width: 900px){
+    .cv {
+        height: 30px;
+    }
+}
+.cv:hover {
+    background-color: white;
+}
+.abot {
+    height: 56px;
+    line-height: 46px;
+    padding: 3px;
+    border: 2px solid black;
+}
+@media (max-width: 900px){
+    .abot {
+        height: 30px;
+    }
+}
+.abot:hover {
+    background-color: white;
+}
+.cont {
+    height: 56px;
+    line-height: 46px;
+    padding: 3px;
+    border: 2px solid black;
+}
+@media (max-width: 900px){
+    .cont {
+        height: 30px;
+    }
+}
+.cont:hover {
+    background-color: white;
+}
+.social-icon {
+    height: 60px;
+    width: 250px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;  
+}
+.fb {
+    height: 56px;
+    width: 40px;
+}
+.fb i {
+    margin-left: 5px;
+    font-size: 30px;
+    line-height: 56px;
+    color: rgb(0, 102, 255);
+}
+.insta {
+    height: 56px;
+    width: 40px;
+}
+.insta i {
+    margin-left: 5px;
+    font-size: 30px;
+    line-height: 56px;
+    color: red;
+}
+.twit {
+    height: 56px;
+    width: 40px;
+}
+.twit i {
+    margin-left: 5px;
+    font-size: 30px;
+    line-height: 56px;
+    color: rgb(0, 102, 255);
+}
+.linked {
+    height: 56px;
+    width: 40px;
+}
+.linked i {
+    margin-left: 5px;
+    font-size: 30px;
+    line-height: 56px;
+    color: rgb(0, 128, 255);
+}
+.git {
+    height: 56px;
+    width: 40px;
+}
+.git i {
+    margin-left: 5px;
+    font-size: 30px;
+    line-height: 56px;
+    color: black;
+}
+/* this is for body section */
+.pro-intro {
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color:cadetblue;
+    margin: 20px;
+    background-image: url("gaya-profile.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+}
+.intro-cont {
+    height: 400px;
+    width: 800px;
+}
+.title-name {
+    font-size: 60px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.description {
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 600;
+}
+.about-me {
+    margin-left: 10px;
+    font-size: 25px;
+}
+.gaya {
+    text-decoration: none;
+    color:darkred;
+    font-weight: 600;
+}
+.gaya:hover {
+    text-decoration: underline;
+}
+.know-more-btn {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: right;
+}
+.know-more {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    background-color: rgb(0, 106, 255);
+    border: 2px solid blue;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.know-more-btn a {
+    text-decoration: none;
+}
+.know-more:hover {
+    background-color: rgba(0, 191, 255, 0.937);
+}
+.btn-section {
+    height: 100px;
+    width: 500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.res-btn {
+    height: 100px;
+    width: 100px; 
+    border-radius: 50%;
+    border: 2px solid yellowgreen;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pro-btn {
+    height: 100px;
+    width: 100px; 
+    border-radius: 50%;
+    border: 2px solid red;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* this is for footer section */
+.first-foot {
+    height: 80px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #97efe9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

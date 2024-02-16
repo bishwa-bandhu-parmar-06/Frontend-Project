@@ -1,0 +1,363 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* this is for navigation bar or menu */
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px 8px gray ;
+}
+/* name logo link */
+.name-logo {
+    height: 70px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-logo a {
+    height: 68px;
+    width: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+}
+.name-logo a:hover {
+    background-color: black;
+    color: white;
+}
+/* link content section */
+.link-conte {
+    height: 70px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.home, .abot, .res, .proj {
+    text-decoration: none;
+    color: black;
+}
+.hom a {
+    height: 68px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.hom a:hover{
+    color: white;
+    background-color: black;
+}
+.about a {
+    height: 68px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.about a:hover {
+    color: white;
+    background-color: black;
+}
+.resume a {
+    height: 68px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.resume a:hover {
+    color: white;
+    background-color: black;
+}
+.project a {
+    height: 68px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.project a:hover {
+    color: white;
+    background-color: black;
+}
+/* it is for social icon */
+.social-icon {
+    height: 70px;
+    width: 300px;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-icon a {
+    color: black;
+}
+.social-icon a .facebook:hover {
+    color: rgb(0, 136, 255);
+}
+.social-icon a .instagram:hover {
+    color: red;
+}
+.social-icon a .twitter:hover {
+    color: rgb(0, 136, 255);
+}
+/* contact section */
+.contact-section {
+    margin-top: 100px;
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+}
+.cont-me {
+    height: 600px;
+    width: 50%;
+    display: flex;
+    background-color: aliceblue;
+}
+.contact-img {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    background-image: url("profile.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-content {
+    height: 300px;
+    width: 50%;
+}
+.contact-content h1 {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.contact-content p {
+    color: Black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+h3 {
+    color: Black;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* this is for form section */
+.form-section {
+    height: 600px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+form {
+    background-color: #444444;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  .lb {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .infos[type="text"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #333333;
+    color: white;
+  }
+  
+  #send {
+    --glow-color: rgb(176, 255, 189);
+    --glow-spread-color: rgba(123, 255, 160, 0.781);
+    --enhanced-glow-color: rgb(182, 175, 71);
+    --btn-color: rgba(13, 241, 21, 0.508);
+    border: .25em solid var(--glow-color);
+    padding: 1em 2em;
+    color: var(--glow-color);
+    font-size: 14px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+          0 0 4em 1em var(--glow-spread-color),
+          inset 0 0 .05em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  #send::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+  }
+  
+  #send:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+          0 0 4em 2em var(--glow-spread-color),
+          inset 0 0 .75em .25em var(--glow-color);
+  }
+  
+  #send:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+          0 0 2.5em 2em var(--glow-spread-color),
+          inset 0 0 .5em .25em var(--glow-color);
+  }
+  
+  #limpar {
+    --glow-color: rgb(255, 176, 176);
+    --glow-spread-color: rgba(255, 123, 123, 0.781);
+    --enhanced-glow-color: rgb(182, 175, 71);
+    --btn-color: rgba(241, 13, 13, 0.508);
+    border: .25em solid var(--glow-color);
+    padding: 1em 2em;
+    color: var(--glow-color);
+    font-size: 14px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+          0 0 4em 1em var(--glow-spread-color),
+          inset 0 0 .05em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+  }
+  
+  #limpar::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+  }
+  
+  #limpar:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+          0 0 4em 2em var(--glow-spread-color),
+          inset 0 0 .75em .25em var(--glow-color);
+  }
+  
+  #limpar:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+          0 0 2.5em 2em var(--glow-spread-color),
+          inset 0 0 .5em .25em var(--glow-color);
+  }
+  .social-icon {
+    height: 60px; 
+    width: 200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+/* this is for the height and width for the social icon */
+.fb, .insta, .twit, .linked, .git {
+    height: 60px;
+    width: 39px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* this is for hover section for the social icon */
+.fb:hover{
+    background-color: white;
+}
+.insta:hover{
+    background-color: white;
+}
+.twit:hover{
+    background-color: white;
+}
+.linked:hover{
+    background-color: white;
+}
+.git:hover{
+    background-color: white;
+}
+/* this is for color of social icon */
+.fb i {
+    color: rgb(0, 106, 255);
+}
+.insta i {
+    color: rgba(199, 13, 13, 0.94);
+}
+.twit i {
+    color: blue;
+}
+.linked i {
+    color: blue;
+}
+.git i {
+    color: black;
+}
+/* this is for the footer */
+.first-foot {
+    height: 80px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #97efe9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
