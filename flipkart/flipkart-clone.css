@@ -1,0 +1,700 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:arial;
+    border:border-box;
+}
+.nav-bar{
+    height:60px;
+    background-color: #2874f0;
+    display:flex;
+    align-items: center;
+}
+.logo a{
+    color:white;
+    text-decoration: none;
+}
+span{
+    color:yellow;
+    font-weight:700;
+}
+.logo i{
+    color:yellow;
+}
+.logo{
+    margin-left:150px;
+}
+.nav-search{
+    height:60px;
+    width:400px;
+    display:flex;
+    align-items: center;
+    margin-left:15px;
+}
+.search-input{
+    height:35px;
+    width:350px;
+    border:none;
+    padding:0 16px;
+}
+.search{
+    height:35px;
+    width:40px;
+    color:#2874f0;
+    background-color: white;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height:60px;
+    width:120px;
+    margin-left:30px;
+    display: flex;
+    align-items: center;
+}
+.log-btn{
+    height:32px;
+    width:120px;
+    color:#2874f0;
+    font-size:1rem;
+    font-weight:700;
+    background-color: white;
+    border:none;
+   margin-bottom:27px;
+}
+.seller{
+    width:130px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30px;
+}
+h3 a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-mor{
+   height:60px;
+   width:120px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mor{
+    height:20px;
+    width:36px;
+    color:white;
+}
+.nav-cart{
+    height:60px;
+    width:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    height:30px;
+    width:30px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    height:20px;
+    width:30px;
+    color:white;
+}
+.icon{
+    color:white;
+    height:40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    min-height:112px;
+    background-color: white;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    min-width:95px;
+    min-height:112px;
+   
+}
+.box2{
+    min-width:124px;
+    min-height:112px;
+}
+.box3{
+    min-width:85px;
+    min-height:112px;
+}
+.box4{
+    min-height:112px;
+    min-width:124px;
+}
+.box5{
+    min-height:112px;
+    min-width:80px;
+}
+.box6{
+    min-height:112px;
+    min-width:80px;
+}
+.box7{
+    min-height:112px;
+    min-width:115px;
+}
+.box8{
+    min-height:112px;
+    min-width:80px;
+}
+.box9{
+    min-height:112px;
+    min-width:80px;
+}
+.box10{
+    min-height:112px;
+    min-width:96px;
+}
+h3{
+    font-size:14px;
+    color:#2874f0;
+    text-align: center;
+}
+.hero-section{
+    height:280px;
+    background-color: bisque;
+}
+.hero-img{
+    margin-top:20px;
+    height:280px;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/6a46d1114486b4a2.jpeg?q=50");
+    background-size: cover;
+}
+.add-section{
+    height:115px;
+}
+.add-img{
+    height:115px;
+    margin-top:20px;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/2000/2000/image/8d8f584b6e0ddb5f.jpg?q=50");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+footer{
+    margin-top:20px;
+    height:332px;
+    background-color:#222f3d;
+    padding-top:20px;
+}
+.down{
+    color:#878787;
+    width:140px;
+}
+li a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+li a{
+    border:1px solid transparent;
+}
+li a:hover{
+    border-bottom:1px solid #FFFFFF;
+}
+li{
+    list-style-type: none;
+    margin-bottom:5px;
+    font-size: 12px;
+}
+.foot-pannel1{
+    height:250px;
+}
+hr{
+    height:150px;
+}
+/*.foot-pannel2{
+    height:80px;
+    border:2px solid white;
+}*/
+/*.foot3{
+    min-height:80px;
+    min-width:200px;
+    display: flex;
+}*/
+p{
+    font-size: 12px;
+    color:white;
+}
+.foot{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot6 h4{
+    width:300px;
+    display:flex; 
+}
+.foot1 h4{
+    margin-bottom:14px;
+}
+.foot2 h4{
+    margin-bottom:15px;
+}
+.foot2 li{
+    margin-bottom:10px;
+}
+.foot-pannel3{
+    border-top:1px solid white;
+    height:80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.foot-pannel3 i{
+    color:yellow;
+    margin-right:5px;
+}
+.sell{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.adver{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.gift{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.help{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.payment{
+    width:250px;
+    height:20px;
+    border:1px solid transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    margin-top:20px;
+    min-height:200px;
+    background-color: #fff;
+    padding-top:20px;
+}
+h5{
+    margin-bottom:20px;
+    margin-left:30px;
+}
+.description p{
+    text-align: justify;
+    margin-left:30px;
+    margin-top:20px;
+    color:#878787;
+}
+.description .h2{
+    margin-top:20px;
+}
+.h3{
+    margin-top:20px;
+}
+.element1{
+    height:370px;
+    border:2px solid transparent;
+    background-color:aliceblue;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imag1,.imag2,.imag3,.imag4,.imag5,.imag6{
+    height:350px;
+    width:100%;
+    border:0.5px solid transparent;
+    background-color: white;
+}
+.imag1 .best{
+    margin-top:40px;
+    text-align: center;
+    font-size:30px;
+    height:85px;
+    width:200px;
+}
+button{
+    height:30px;
+    background-color:#2874f0;
+    color:white;
+    font-size: 16px;
+    width:90px;
+    border:2px solid #2874f0;
+}
+.btn{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag1{
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90");
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    background-color: white;
+}
+.imag6 .flight{
+    height:350px;
+    width:100%;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/464/708/image/5942bb5b5233d597.jpg?q=70");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imag2 .trimmer{
+    width:200px;
+    height:200px;
+    margin:10px;
+}
+.best-trimmer{
+    margin-top:20px;
+    height:20px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price1{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des1{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag3 .monitors{
+    width:200px;
+    height:200px;
+    margin:15px;
+}
+.best-monitor{
+    margin-top:38px;
+    height:20px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price2{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des2{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag4 .dryer{
+    width:140px;
+    height:200px;
+    margin-left:35px;
+}
+.best-hair{
+    margin-top:20px;
+    height:20px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+}
+.price3{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des3{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    margin-top:5px;
+}
+.imag5 .women-trimmer{
+    width:153px;
+    height:200px;
+    margin-left:35px;
+}
+.best-women-trimmer{
+    margin-top:20px;
+    height:20px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price4{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des4{
+    height:25px;
+    width:190px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    margin-top:10px;
+    margin-right:25px;
+}
+.element2{
+    height:370px;
+    border:2px solid transparent;
+    background-color:aliceblue;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imag7,.imag8,.imag9,.imag10,.imag11,.imag12{
+    height:350px;
+    width:100%;
+    border:0.5px solid transparent;
+}
+.imag7 .but{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    font-weight: 700;
+    height:85px;
+    width:200px;
+}
+button{
+    height:30px;
+    background-color:#2874f0;
+    color:white;
+    font-size: 16px;
+    width:90px;
+    border:2px solid #2874f0;
+}
+.view-btn{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag7{
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90");
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    background-color: white;
+}
+.imag8 img{
+    height:200px;
+    width:120px;
+  margin-left:45px;
+  margin-top:10px;
+}
+.micro{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price5{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des5{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag9 img{
+    width:200px;
+    height:200px;
+    margin-bottom:30px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.price6{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des6{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag10 img{
+    width:200px;
+    height:124px;
+    margin:38px 10px;
+}
+.elect-cycle{
+    margin-top:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price7{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des7{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag11 img{
+    width:200px;
+    height:190px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.control-toys{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price8{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des8{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag12 img{
+    width:200px;
+    height:190px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.gy{
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price9{
+    margin-top:10px;
+    font-size:16px;
+    width:200px;
+    height:30px;
+    color:#388E3C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.des9{
+    height:25px;
+    width:200px;
+    font-size: 14px;
+    color:#212121;
+    padding:7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
