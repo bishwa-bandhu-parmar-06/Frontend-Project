@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:honeydew;
+    background-color: #252B48;
+}
+.header {
+    height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252B48;
+    box-shadow: 5px 1px honeydew;
+}
+.logo1 {
+    height: 2em;
+    width: 200px;
+    color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+.header .logo {
+    text-decoration: none;
+}
+.logo .logo1:hover {
+    background-color: #445069;
+}
+.section {
+    height: 4em;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section a  {
+    text-decoration: none;
+}
+.section a .section-item {
+    height: 4em;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section a .section-item1:hover {
+    background-color: #445069;
+}
+.section-item2:hover {
+    background-color: #445069;
+}
+.section-item3:hover {
+    background-color: #445069;
+}
+.section-item4:hover {
+    background-color: #445069;
+}
+.social {
+    height: 4em;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*---------------------------- this is for the social media profile dropdown---------------------*/
+.dropdown {
+    display: none;
+}
+.dropdown1 {
+    display: none;
+}
+.dropdown2 {
+    display: none;
+}
+
+/* --------------here ends up social media profile dropdown---------------------*/
+.social a {
+    text-decoration: none;
+}
+.social a .social-link{
+    height: 4em;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social a .social-link1:hover {
+    background-color: #445069;
+}
+.social a .social-link2:hover {
+    background-color: #445069;
+}
+.social a .social-link3:hover {
+    background-color: #445069;
+}
+.social a .social-link4:hover {
+    background-color: #445069;
+}
+
+/* THIS IS FOR THE BODY ITEMS */
+
+.body-items {
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-items .first {
+    display: none;
+}
+/* This is for profile image */
+
+.profile-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px 0px 100px 250px;
+    /* margin-left: 250px ;
+    margin-top: 50px ;
+    margin-bottom: 100px ; */
+    /* overflow: hidden; */
+    background-image: url("DSC_0169.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(270deg);
+    border: 2px solid honeydew;
+    /* position: relative; */
+    /* bottom: 50px;
+    left: 50px; */
+}
+/* .profile-img img {
+    width: 500px;
+    transform: rotate(270deg);
+} */
+.about {
+    height: 500px;
+    width: 800px;
+    margin-right: 100px;
+}
+.about h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about h2 {
+    margin-top: 10px;
+    margin-left: 80px;
+    color: rgba(0, 191, 255, 0.966);
+}
+.about h2 span {
+    color: honeydew;
+}
+/* .about h3 {
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 700;
+} */
+.about h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.about p {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    line-height: 23px;
+    text-align: justify;
+}
+.about .s1,.s2,.s3,.s4 {
+    margin-left: 5px;
+}
+.about .s1 {
+    color: rgba(255, 51, 0, 0.966);
+}
+.about .s2 {
+    color: rgba(0, 191, 255, 0.966);
+}
+.about .s3 {
+    color: rgba(255, 0, 102, 0.966);
+}
+.about .s4 {
+    color: rgba(255, 0, 242, 0.966);
+}
+.about .btn {
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+}
+.about  button {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 70px;
+    border: 2px solid honeydew;
+    border-radius: 50%;
+    /* background: linear-gradient(to right bottom, rgba(0, 191, 255, 0.966), #000); */
+}
+.about  button:hover {
+    background-color: #445069;
+}

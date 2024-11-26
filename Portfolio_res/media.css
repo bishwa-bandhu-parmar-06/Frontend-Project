@@ -1,0 +1,636 @@
+/*----------screen display upto max width around 900px -----------------*/
+
+
+@media (max-width: 900px) {
+    .header {
+        height: 4em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 300;
+        background-color: #252B48;
+        /* #028090 */
+    }
+
+
+    .logo {
+        height: 4em;
+        width: 100px;
+        margin-right: 70px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .logo .logo1 {
+        height: 60px;
+        width: 100px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .logo .logo1:hover {
+        background-color: #445069;
+    }
+/*--------THIS IS FOR THE SECTION LIKE HOME AND SECTION ITEMS-----*/
+    .section {
+        height: 4em;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .section a  {
+        text-decoration: none;
+    }
+    .section a .section-item {
+        height: 4em;
+        width: 75px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .section a .section-item1:hover {
+        background-color: #445069;
+    }
+    .section-item2:hover {
+        background-color: #445069;
+    }
+    .section-item3:hover {
+        background-color: #445069;
+    }
+    .section-item4:hover {
+        background-color: #445069;
+    }
+/*------THIS IS FOR THE SOCIAL LINK AND CONTACTS--------*/
+    .social {
+        height: 4em;
+        width: 400px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .social a {
+        text-decoration: none;
+    }
+    .social a .social-link{
+        height: 4em;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social a .social-link1:hover {
+        background-color: #445069;
+    }
+    .social a .social-link2:hover {
+        background-color: #445069;
+    }
+    .social a .social-link3:hover {
+        background-color: #445069;
+    }
+    .social a .social-link4:hover {
+        background-color: #445069;
+    }
+}
+
+
+/*----------screen display upto max width around 830px -----------------*/
+
+
+@media (max-width: 830px) {
+    .header {
+        height: 4em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #114B5F;
+    }
+    .header .logo .logo1 {
+        background-color: #114B5F;
+    }
+    .header .logo .logo1:hover {
+        background-color: #028090;
+    }
+    body {
+        background-color: #114B5F;
+    }
+    .social {
+        display: none;
+    }
+    .section {
+        display: none;
+    }
+    .dropdown {
+        height: 4em;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dropbtn {
+        height: 4em;
+        width: 200px;
+        background-color: #114B5F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #114B5F;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #114B5F;
+    }
+      
+    .dropdown-content a:hover {background-color: #028090;}
+      
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .dropdown:hover .dropbtn {
+        background-color: #028090;
+    }
+
+
+     /*----------SECOND DROP DOWN FOR SOCIAL MEDIA PROFILE LINK---------*/
+
+     .dropdown1 {
+        height: 4em;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dropbtn1 {
+        height: 4em;
+        width: 200px;
+        background-color: #114B5F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #114B5F;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content1 a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        background-color: #114B5F;
+    }
+      
+    .dropdown-content1 a:hover {background-color: #028090;}
+      
+    .dropdown1:hover .dropdown-content1 {
+        display: block;
+    }
+      
+    .dropdown1:hover .dropbtn1 {
+        background-color: #028090;
+    }
+
+
+
+    .about {
+        background-color: #114B5F;
+    }
+    .about h1 {
+        background-color: #114B5F;
+    }
+    .about h2 {
+        background-color: #114B5F;
+    }
+    .about h4 {
+        background-color: #114B5F;
+    }
+   .about .btn {
+        background-color: #114B5F;
+   }
+
+    .about  button {
+        background-color: #114B5F;
+    }
+    .body-items {
+        background-color: #114B5F;
+    }
+    .body-items .first {
+        background-color: #114B5F;
+    }
+    .body-items .first span {
+        background-color: #114B5F;
+    }
+    .body-items  .about p{
+        background-color: #114B5F;
+    }
+    .about  button:hover {
+        background-color:#028090;
+    }
+    .about .s1,.s2,.s3,.s4 {
+        background-color: #114B5F;
+    }
+    .about h2 span {
+        background-color: #114B5F;
+    }
+    .about p span {
+        background-color: #114B5F;
+    }
+
+}
+
+
+/*----------screen display upto max width around 570px -----------------*/
+
+@media (max-width: 570px) {
+    .header {
+        height: 4em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    * {
+        background-color: #114B5F;
+    }
+    .dropdown {
+        height: 4em;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dropbtn {
+        height: 4em;
+        width: 100px;
+        background-color: #114B5F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #114B5F;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover {background-color: #028090;}
+      
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .dropdown:hover .dropbtn {
+        background-color: #028090;
+    }
+    .about h2 span {
+        background-color: #114B5F;
+    }
+    .about p span {
+        background-color: #114B5F;
+    }
+}
+ 
+
+/*----------screen display upto max width around 470px -----------------*/
+
+
+@media (max-width: 470px) {
+    .header {
+        height: 4em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    * {
+        background-color: #114B5F;
+    }
+    
+    .dropdown {
+        height: 4em;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dropbtn {
+        height: 4em;
+        width: 100px;
+        background-color: #114B5F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #114B5F;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover {background-color: #028090;}
+      
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .dropdown:hover .dropbtn {
+        background-color: #028090;
+    }
+
+
+
+    /*----------SECOND DROP DOWN FOR SOCIAL MEDIA PROFILE LINK-----------------------*/
+
+    .dropdown1 {
+        height: 4em;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dropbtn1 {
+        height: 4em;
+        width: 150px;
+        background-color: #114B5F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .dropdown1 {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #114B5F;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content1 a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content1 a:hover {background-color: #028090;}
+      
+    .dropdown1:hover .dropdown-content1 {
+        display: block;
+    }
+      
+    .dropdown1:hover .dropbtn1 {
+        background-color: #028090;
+    }
+    .about h2 span {
+        background-color: #114B5F;
+    }
+    .about p span {
+        background-color: #114B5F;
+    }
+}
+
+/*----------screen display upto max width around 420px -----------------*/
+
+@media (max-width: 420px) {
+    .header {
+        height: 4em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    * {
+        background-color: #114B5F;
+    }
+
+    .header .dropdown1 {
+        display: none;
+    }
+    .header .dropdown {
+        display: none;
+    }
+
+    .dropdown2 {
+        height: 4em;
+        width: 100px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dropbtn2 {
+        height: 4em;
+        width: 100px;
+        background-color: #114B5F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content2 {
+        display: none;
+        position: absolute;
+        background-color: #114B5F;
+        width: 375px;
+        border-bottom: 2px solid honeydew;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content2 a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        border-top: 1px solid honeydew;
+        background-color: #114B5F;
+    }
+      
+    .dropdown-content2 a:hover {
+        background-color: #028090;
+    }
+      
+    .dropdown2:hover .dropdown-content2 {
+        display: block;
+        position: relative;
+        right: 262px;
+    }
+    .dropdown2:hover .dropbtn2 {
+        background-color: #028090;
+    }
+    .about h2 span {
+        background-color: #114B5F;
+    }
+    .about p span {
+        background-color: #114B5F;
+    }
+}
+
+/* THIS IS FOR BODY SECTION ELEMENT */
+
+@media (max-width: 1330px) {
+    /* .header {
+        position: sticky;
+        top: 0px;
+    } */
+    .body-items {
+        height: 900px;
+        width: 100%;
+        display: block;
+        
+    }
+    .body-items p .s5,.s6,.s7,.s8 {
+        margin-left: 5px;
+    }
+    .body-items p .s5 {
+        color: rgba(255, 51, 0, 0.966);
+    }
+    .body-items p .s6 {
+        color: rgba(0, 191, 255, 0.966);
+    }
+    .body-items p .s7 {
+        color: rgba(255, 0, 102, 0.966);
+    }
+    .body-items p .s8 {
+        color: rgba(255, 0, 242, 0.966);
+    }
+    .profile-img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .body-items .first {
+        display: block;
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .body-items p .intro {
+        font-size: 16px;
+    }
+
+    .about {
+        height: 500px;
+        width: 100%;
+        margin-right: 100px;
+    }
+    .about h1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .about h2 {
+        margin-top: 10px;
+        margin-left: 80px;
+        color: rgba(0, 191, 255, 0.966);
+    }
+    
+    .about .btn {
+        height: 300px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .about p {
+        margin-right: 40px;
+    }
+
+    .about  button {
+        margin: 20px 20px 20px 40px;
+    }
+
+}
